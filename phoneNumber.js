@@ -27,7 +27,6 @@ function createPhoneNumber(arr){
                 condition = 0
                 }
              }
-             console.log(0)
 
         //if to make sure lenght ok
         if(arr.length != 10){
