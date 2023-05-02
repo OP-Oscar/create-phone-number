@@ -27,13 +27,14 @@ function createPhoneNumber(arr){
                 condition = 0
                 }
              }
+             console.log(0)
 
         //if to make sure lenght ok
         if(arr.length != 10){
             return "Array must be of 10 values"
         //if to make sure numbers meet expectations
              }
-        else if( condition = 1){
+        else if( condition === 0){
             return "Array must have numbers between 0 and 10"
             }
         // function running
